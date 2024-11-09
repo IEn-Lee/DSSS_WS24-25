@@ -21,6 +21,7 @@ class TestMathGame(unittest.TestCase):
             self.assertIn(operator, operators)
 
     def test_math_operation(self):
+        # Test if the math_operation function returns the correct problem and answer
         test_cases = [
             (5, 2, '+', '5 + 2', 7),
             (5, 2, '-', '5 - 2', 3),
